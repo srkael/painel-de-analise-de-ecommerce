@@ -434,12 +434,9 @@ Este bloco só é executado quando o script é rodado diretamente
 """
 
 # Estas linhas são ESSENCIAIS para o deploy no Render
-app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
-server = app.server  # Esta é a linha mais importante
+# Estas linhas devem ser as últimas do arquivo, ANTES do if __name__...
+app = dash.Dash(__name__)  # Já deve existir no seu código
+server = app.server        # Esta linha é crucial
 
 if __name__ == '__main__':
-    # Inicia o servidor de desenvolvimento
     app.run(debug=True)
-    # debug=True: ativa modo de desenvolvimento com:
-    # - Recarregamento automático quando o código muda
-    # - Mensagens de erro detalhadas no navegador

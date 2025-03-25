@@ -36,6 +36,7 @@ Um painel interativo desenvolvido em Python usando Dash e Plotly para análise d
 - Navegador moderno (Chrome, Firefox, Edge, etc.).
 - Conexão com a internet (para carregar recursos externos, se houver).
 - Acesse: [https://painel-interativo-de-analise-de-dados-de.onrender.com/](https://painel-interativo-de-analise-de-dados-de.onrender.com/)
+- Aguarde o servidor carregar a aplicação (O serviço é grátis então demora uns minutos)
 
 
 ## 🚀 Como Executar

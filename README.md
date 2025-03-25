@@ -31,6 +31,13 @@ Um painel interativo desenvolvido em Python usando Dash e Plotly para análise d
 - Statsmodels (Análise estatística - opcional)
 -  Gunicorn (para deploy)
 
+## 🖥️ Como acessar
+
+- Navegador moderno (Chrome, Firefox, Edge, etc.).
+- Conexão com a internet (para carregar recursos externos, se houver).
+- Acesse: [https://painel-interativo-de-analise-de-dados-de.onrender.com/](https://painel-interativo-de-analise-de-dados-de.onrender.com/)
+
+
 ## 🚀 Como Executar
 
 ### Pré-requisitos

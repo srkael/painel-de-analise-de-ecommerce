@@ -433,8 +433,9 @@ Este bloco só é executado quando o script é rodado diretamente
 (não quando importado como módulo).
 """
 
-# Esta linha deve ser adicionada para o deploy no Render
-server = app.server  # Esta linha é crucial para o Render
+# Estas linhas são ESSENCIAIS para o deploy no Render
+app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
+server = app.server  # Esta é a linha mais importante
 
 if __name__ == '__main__':
     # Inicia o servidor de desenvolvimento

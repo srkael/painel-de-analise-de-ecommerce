@@ -2,6 +2,8 @@
 
 Um painel interativo desenvolvido em Python usando Dash e Plotly para análise de dados de e-commerce, proporcionando insights visuais sobre produtos, preços, marcas e vendas.
 
+![layout-como-ficou.png](./assets/painel-de-analise-de-ecommerce.jpeg)
+
 ## 🚀 Recursos do Projeto
 
 - **Visualizações interativas** de dados de e-commerce

@@ -1,1 +1,4 @@
-from app import server as application
+from app import app, server  # Importe tanto app quanto server
+
+# Crie uma variável application que o Gunicorn usará
+application = server
